@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_marginLeft="32dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/back"
+                android:id="@+id/back"
+                android:background="#00000000"
+                />
+
+            <TextView
+                style="@style/login_txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="70dp"
+                android:text="Registration" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    style="@style/login_txt2"
+                    android:layout_width="97dp"
+                    android:layout_height="wrap_content"
+                    android:text="Username"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/login_edit"
+                    android:id="@+id/name"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/login_txt2"
+                    android:layout_width="97dp"
+                    android:layout_height="wrap_content"
+                    android:text="Password"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/login_edit"
+                    android:id="@+id/pswd"
+                    android:inputType="textPassword"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/login_txt2"
+                    android:layout_width="98dp"
+                    android:layout_height="wrap_content"
+                    android:text="Repeat "
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/login_edit"
+                    android:id="@+id/repswd"
+                    android:inputType="textPassword"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    style="@style/login_button"
+                    android:text="Register now"
+                    android:background="#5eb7b7"
+                    android:textColor="#fff"
+                    android:id="@+id/sign"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

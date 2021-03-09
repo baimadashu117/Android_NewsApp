@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.newstest.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_collection"
+        android:name="com.example.newstest.ui.collection.CollectionFragment"
+        android:label="Collection"
+        tools:layout="@layout/fragment_collection" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.newstest.ui.contact.ContactFragment"
+        android:label="Contact"
+        tools:layout="@layout/fragment_contact" />
+
+    <fragment
+        android:id="@+id/nav_set"
+        android:name="com.example.newstest.ui.set.SetFragment"
+        android:label="Setting"
+        tools:layout="@layout/fragment_set" />
+
+    <fragment
+        android:id="@+id/nav_news"
+        android:name="com.example.newstest.ui.news.NewsFragment"
+        android:label="News"
+        tools:layout="@layout/fragment_news" />
+
+
+</navigation>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/toutiao"
+        android:orderInCategory="100"
+        android:title="头条"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/guonei"
+        android:orderInCategory="100"
+        android:title="国内"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/guoji"
+        android:orderInCategory="100"
+        android:title="国际"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/zhengzhi"
+        android:orderInCategory="100"
+        android:title="政治"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/caijing"
+        android:orderInCategory="100"
+        android:title="财经"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/tiyu"
+        android:orderInCategory="100"
+        android:title="体育"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/junshi"
+        android:orderInCategory="100"
+        android:title="军事"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/jiaoyu"
+        android:orderInCategory="100"
+        android:title="教育"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/keji"
+        android:orderInCategory="100"
+        android:title="科技"
+        app:showAsAction="never" />
+</menu>

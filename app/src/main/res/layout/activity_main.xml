@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9CD5F4F2"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/get"
+        android:layout_width="316dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="452dp"
+        android:background="#813BA5A5"
+        android:clickable="true"
+        android:text="Start My News"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="432dp"
+        android:layout_height="765dp"
+        android:paddingLeft="5px"
+        android:paddingTop="5px"
+        android:paddingRight="5px"
+        android:paddingBottom="5px"
+        android:tileMode="repeat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lemon" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="335dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginBottom="156dp"
+        android:background="#A8EBF6F5"
+        android:gravity="center"
+        android:text="Welcome to IOS_News"
+        android:textColor="#0D534D"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/get"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
